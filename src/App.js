@@ -23,6 +23,12 @@ function App() {
 		}
 	};
 
+	const handleReset = (el) => {
+		setScore(0);
+		setCurrentQuestion(0);
+		setShowScore(false);
+	};
+
 	return (
 		<div className="App">
 			{!showScore && (
@@ -34,7 +40,11 @@ function App() {
 				></Card>
 			)}
 			{showScore && (
-				<Scorecard score={score} numQuestions={questions.length}></Scorecard>
+				<Scorecard
+					score={score}
+					numQuestions={questions.length}
+					onReset={handleReset}
+				></Scorecard>
 			)}
 		</div>
 	);

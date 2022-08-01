@@ -7,6 +7,9 @@ const Scorecard = (props) => {
 			<h1 className={classes["score-card-message"]}>
 				You scored {props.score} out of {props.numQuestions}
 			</h1>
+			<button className={classes["btn-reset"]} onClick={props.onReset}>
+				Reset
+			</button>
 		</div>
 	);
 };
