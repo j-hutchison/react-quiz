@@ -1,0 +1,14 @@
+.card-answer-text {
+	display: block;
+	border: 5px solid #47b5ff8a;
+	border-radius: 10px;
+	padding: 0.5rem 1rem;
+	width: 100%;
+}
+
+.card-answer-text:hover,
+.card-answer-text:active {
+	background-color: #47b5ff8a;
+	font-weight: 400;
+	cursor: pointer;
+}

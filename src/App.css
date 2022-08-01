@@ -16,57 +16,6 @@ html {
 	box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
-.card {
-	display: flex;
-	justify-content: space-between;
-	gap: 1rem;
-
-	background-color: #06283d;
-	color: #fff;
-	border-radius: 12px;
-	box-shadow: 2px 2px 10px #000;
-	padding: 1.5rem;
-
-	width: 36rem;
-}
-.card-question {
-	text-align: left;
-}
-.questions-count {
-	font-size: 20px;
-	font-weight: 200;
-}
-.card-title {
-	font-weight: 500;
-	margin-bottom: 1rem;
-}
-.question-text {
-	font-size: 26px;
-	font-weight: 300;
-}
-.card-answers {
-	display: flex;
-	flex-direction: column;
-	text-align: left;
-	gap: 1rem;
-
-	min-width: 50%;
-}
-.card-answer-text {
-	display: block;
-	border: 5px solid #47b5ff8a;
-	border-radius: 10px;
-	padding: 0.5rem 1rem;
-	width: 100%;
-}
-
-.card-answer-text:hover,
-.card-answer-text:active {
-	background-color: #47b5ff8a;
-	font-weight: 400;
-	cursor: pointer;
-}
-
 /* END OF MY CSS */
 
 .App {
